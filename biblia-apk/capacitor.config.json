@@ -1,0 +1,18 @@
+{
+  "appId": "com.biblia.offline",
+  "appName": "Bíblia JFA Offline",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#1a1008",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    }
+  }
+}
