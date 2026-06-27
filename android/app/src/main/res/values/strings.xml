@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bíblia JFA Offline</string>
+    <string name="title_activity_main">Bíblia JFA Offline</string>
+    <string name="package_name">com.biblia.offline</string>
+    <string name="custom_url_scheme">com.biblia.offline</string>
+</resources>
