@@ -1,16 +1,17 @@
 {
-  "name": "biblia-jfa",
-  "version": "11.0.0",
-  "description": "Bíblia Sagrada JFA Offline",
-  "main": "index.js",
+  "name": "jfa-biblia-offline",
+  "version": "1.0.0",
+  "description": "JFA Bíblia Offline — App Android com áudio nativo",
+  "private": true,
   "scripts": {
-    "build": "echo 'HTML puro, sem build necessário'"
+    "build": "echo 'App estático — sem etapa de build.'"
   },
   "dependencies": {
-    "@capacitor/android": "^6.0.0",
-    "@capacitor/core": "^6.0.0"
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor-community/text-to-speech": "^6.0.0"
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.0.0"
+    "@capacitor/cli": "^6.2.0"
   }
 }

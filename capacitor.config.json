@@ -1,18 +1,18 @@
 {
-  "appId": "com.biblia.offline",
-  "appName": "Bíblia JFA Offline",
+  "appId": "br.com.jfabiblia.offline",
+  "appName": "JFA Bíblia Offline",
   "webDir": "www",
   "android": {
-    "allowMixedContent": true,
-    "captureInput": true,
-    "webContentsDebuggingEnabled": false
+    "allowMixedContent": false,
+    "minWebViewVersion": 60,
+    "backgroundColor": "#0d0a08"
   },
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 1500,
-      "backgroundColor": "#1a1008",
-      "androidSplashResourceName": "splash",
-      "showSpinner": false
+      "backgroundColor": "#0d0a08",
+      "androidSpinnerStyle": "small",
+      "spinnerColor": "#D4A528"
     }
   }
 }
